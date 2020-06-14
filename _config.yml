@@ -39,3 +39,5 @@ theme: minima
 permalink: /:title/
 feed:
   excerpt_only: true
+
+languages: ['en', 'pl']
