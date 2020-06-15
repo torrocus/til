@@ -1,6 +1,4 @@
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 title: Today I learned
 description: >- # ignore newlines until next key
   Programming is my passion.
@@ -36,3 +34,6 @@ default_lang: en
 exclude_from_localization: &exclude_from_localization ['_drafts', 'assets', 'README.md']
 exclude_from_localizations: *exclude_from_localization
 parallel_localization: true
+
+sass:
+  style: compressed
